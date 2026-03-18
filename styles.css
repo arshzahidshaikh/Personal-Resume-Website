@@ -1,0 +1,303 @@
+* {
+    font-family: 'Roboto';
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background: linear-gradient(#A0C8FF,      
+            #B3D3FF,     
+            #DCEBFF,     
+            #F9F8FD,
+            #FFEBE7, 
+            #FDCBBD,
+            #FAAE98);
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px;
+}
+
+.navbar {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.22);
+    border-radius: 999px;
+    padding: 18px 32px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+a {
+    color: #1a1a2e;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 10px;
+    padding: 0px 20px;
+    
+
+}
+
+.Home-Content {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.22);
+    border-radius: 32px;
+    padding: 60px 50px;
+    margin: 20px 40px 40px 40px;   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.Name {
+    color: #1a1a2e;
+    font-size: 58px;
+
+}
+
+.Tagline {
+    color: #3a3a5c;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.Description {
+    color: #555577;
+    font-size: 14px;
+    line-height: 1.75;
+    text-align: center;
+
+}
+
+
+.dp img {
+    width: 300px;
+    height: 360px;
+    border-radius: 24px;
+     border: 2px solid rgba(255, 255, 255, 0.6);
+}
+
+.FHeading {
+    color: #1a1a2e;
+    text-align: center;
+    font-size: 36px;
+
+}
+
+
+
+
+.PHeading {
+    color: #1a1a2e;
+    text-align: center;
+    font-size: 36px;
+
+}
+
+.Projects-Content {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.22);
+    border-radius: 32px;
+    padding: 40px 30px;
+    margin-bottom: 40px;
+    margin: 20px 40px 40px 40px;
+
+}
+
+
+
+.Project1 {
+    background: rgba(255, 255, 255, 0.45);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    padding: 32px 28px;
+    margin-bottom: 40px;
+
+}
+
+.Heading-1 {
+    color: #1a1a2e;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.SubHeading-1 {
+    color: #1a1a2e;
+    font-size: 13px;
+
+}
+
+.Des-1 {
+    color: #555577;
+    font-size: 14px;
+    line-height: 1.7;
+
+}
+
+.Link1 a {
+    color: #4a7fc1;
+    text-decoration: none;
+    font-size: 13px;
+
+}
+
+.Project2 {
+    background: rgba(255, 255, 255, 0.45);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    padding: 32px 28px;
+    margin-bottom: 40px;
+}
+
+
+
+.Heading-2 {
+    color: #1a1a2e;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.SubHeading-2 {
+    color: #1a1a2e;
+    font-size: 13px;
+
+}
+
+.Des-2 {
+    color: #555577;
+    font-size: 14px;
+    line-height: 1.7;
+
+}
+
+.Link2 a {
+    color: #4a7fc1;
+    text-decoration: none;
+    font-size: 13px;
+
+}
+
+.Project3 {
+    background: rgba(255, 255, 255, 0.45);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    padding: 32px 28px;
+    margin-bottom: 40px;
+
+}
+
+
+
+.Heading-3 {
+    color: #1a1a2e;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.Des-3 {
+    color: #555577;
+    font-size: 14px;
+    line-height: 1.7;
+
+}
+
+.Link3 a {
+    color: #4a7fc1;
+    text-decoration: none;
+    font-size: 13px;
+
+}
+
+.Project4 {
+    background: rgba(255, 255, 255, 0.45);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    padding: 32px 28px;
+    margin-bottom: 40px;
+
+}
+
+
+
+.Heading-4 {
+    color: #1a1a2e;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Des-4 {
+    color: #555577;
+    font-size: 14px;
+    line-height: 1.7;
+
+}
+
+.Link4 a {
+    color: #4a7fc1;
+    text-decoration: none;
+    font-size: 13px;
+
+}
+
+
+
+.Contact-Content {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.22);
+    border-radius: 32px;
+    padding: 32px 28px;
+    margin-bottom: 40px;
+    margin: 20px 40px 40px 40px;
+
+}
+.CHeading {
+    color: #1a1a2e;
+    text-align: center;
+    font-size: 36px;
+
+
+}
+
+.Email {
+    color: #1a1a2e;
+    font-size: 16px;
+
+}
+
+.LinkedIn {
+    color: #1a1a2e;
+    font-size: 16px;
+
+}
+.LinkedIn a {
+    color: #4a7fc1;
+    font-size: 13px;
+}
+
+.Phone {
+    color: #1a1a2e;
+    font-size: 16px;
+
+}
+
+footer {
+    color: #1a1a2e;
+    text-align: center;
+    
+
+}
+
+.footernote {
+    margin-bottom: 20px;
+}
